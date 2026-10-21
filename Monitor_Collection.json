@@ -6,6 +6,21 @@
   },
   "item": [
     {
+      "name": "Warm-up connection",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/users?per_page=1",
+          "protocol": "https",
+          "host": ["gorest", "co", "in"],
+          "path": ["public", "v2", "users"],
+          "query": [{ "key": "per_page", "value": "1" }]
+        }
+      },
+      "response": []
+    },
+    {
       "name": "GET Users - Monitor",
       "event": [
         {
@@ -30,16 +45,8 @@
         "url": {
           "raw": "https://gorest.co.in/public/v2/users",
           "protocol": "https",
-          "host": [
-            "gorest",
-            "co",
-            "in"
-          ],
-          "path": [
-            "public",
-            "v2",
-            "users"
-          ]
+          "host": ["gorest", "co", "in"],
+          "path": ["public", "v2", "users"]
         }
       },
       "response": []
