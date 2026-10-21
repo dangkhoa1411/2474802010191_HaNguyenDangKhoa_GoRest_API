@@ -25,4 +25,5 @@ jobs:
             -e Environment.json \
             -d users.csv \
             --env-var "token=$GOREST_TOKEN" \
+            --env-var "baseUrl=https://gorest.co.in/public/v2" \
             --reporters cli
